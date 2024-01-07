@@ -1,0 +1,6 @@
+# kubectl apply -f dashboard-adminuser.yml in the context needed
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  name: admin-user
+  namespace: kubernetes-dashboard
